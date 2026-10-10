@@ -1,0 +1,5 @@
+CONTAINER ID   IMAGE         COMMAND                  CREATED       STATUS          PORTS                                         NAMES
+b1f639a35789   postgres:17   "docker-entrypoint.s…"   9 hours ago   Up 39 seconds   0.0.0.0:5433->5432/tcp, [::]:5433->5432/tcp   xiod_pz_2-postgres_db-1
+
+CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O        BLOCK I/O        PIDS
+b1f639a35789   xiod_pz_2-postgres_db-1   0.00%     68.39MiB / 1GiB     6.68%     1.7kB / 126B   53.3MB / 606kB   6

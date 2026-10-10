@@ -8,3 +8,7 @@ ID=debian
 HOME_URL="https://www.debian.org/"
 SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
+
+docker exec b1f639a35789 cat /etc/os-release > system.txt - этой командой создал файл
+
+docker exec -it b1f639a35789 bash - Зайти внутрь контейнера

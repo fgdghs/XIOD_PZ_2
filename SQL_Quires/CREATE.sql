@@ -1,3 +1,4 @@
+-- 5.1
 CREATE TABLE  students (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -13,6 +14,7 @@ CREATE TABLE books (
     year INT NOT NULL
 );
 
+--Доп Задачи
 CREATE TABLE student_books (
     id SERIAL PRIMARY KEY,
     student_name VARCHAR(100),

@@ -1,3 +1,4 @@
+-- 5.3
 SELECT COUNT(*) FROM books;
 
 SELECT COUNT(*) FROM students;
@@ -12,6 +13,7 @@ LIMIT 1;
 SELECT * FROM books
 WHERE year = (SELECT MAX(year) FROM books);
 
+-- Доп Задачи
 SELECT * FROM student_books;
 
 SELECT COUNT(*) FROM student_books;

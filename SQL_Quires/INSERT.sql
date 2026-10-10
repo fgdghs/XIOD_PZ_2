@@ -1,3 +1,4 @@
+-- 5.2
 INSERT INTO books (title, author, year) 
 SELECT 
     'Book Title Vol. ' || i AS title,
@@ -12,6 +13,7 @@ SELECT
     '2000-01-01'::DATE + (floor(random() * 2500)::INT) AS birth_date -- floor - округление
 FROM generate_series(1, 100) AS i;
 
+-- Доп Задачи
 INSERT INTO student_books (student_name, book_title)
 SELECT
     A.name,
